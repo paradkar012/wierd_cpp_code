@@ -9,4 +9,5 @@ int max(int a, int b) {
 
 int main(void) {
     assert(max(1, 0) == 1);
+    assert(max(0, 1) == 1);
 }
